@@ -11,3 +11,11 @@ It is DBMS based project where cars is listed by the Owners and Customers can ta
 ## ER Diagram
 
 ![image](https://user-images.githubusercontent.com/79306200/169045003-098a8c4f-4c7d-4428-951b-0b36b2b3a083.png)
+
+## How to Install and Run the Project
+
+First fork the repository in your local machine. Before running any file you have to do certain changes to run into your machine. Enter your MySQL password at root="Your_MySQL_Password" is present.
+
+![image](https://user-images.githubusercontent.com/79306200/169061408-1ca3c138-8c76-41ed-9b45-01b4161df943.png)
+
+Run the code present in sql file either in MySQL client or Workbench. Now you're ready to run the project. Run the Java file.
