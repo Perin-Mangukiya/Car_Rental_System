@@ -30,7 +30,7 @@ public class Car_Rental_System {
 
             try{  
                 Class.forName("com.mysql.jdbc.Driver");  
-                Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/car_rental_system","root","Perin@3016");  
+                Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/car_rental_system","root","");  
                 
                 Statement stmt=con.createStatement();  
 
@@ -91,7 +91,7 @@ public class Car_Rental_System {
 
             try{  
                 Class.forName("com.mysql.jdbc.Driver");  
-                Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/car_rental_system","root","Perin@3016");  
+                Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/car_rental_system","root","");  
                 
                 Statement stmt=con.createStatement();  
                 
@@ -159,7 +159,7 @@ public class Car_Rental_System {
         
         try{  
             Class.forName("com.mysql.cj.jdbc.Driver");  
-            Connection con =DriverManager.getConnection("jdbc:mysql://localhost:3306/car_rental_system","root","Perin@3016");  
+            Connection con =DriverManager.getConnection("jdbc:mysql://localhost:3306/car_rental_system","root","");  
             
             Statement stmt = con.createStatement();
 
@@ -212,7 +212,7 @@ public class Car_Rental_System {
 
         try{  
             Class.forName("com.mysql.cj.jdbc.Driver");  
-            Connection con =DriverManager.getConnection("jdbc:mysql://localhost:3306/car_rental_system","root","Perin@3016");  
+            Connection con =DriverManager.getConnection("jdbc:mysql://localhost:3306/car_rental_system","root","");  
             
             Statement stmt = con.createStatement();  
 
@@ -287,7 +287,7 @@ public class Car_Rental_System {
 
                 try {
                     Class.forName("com.mysql.cj.jdbc.Driver");
-                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/car_rental_system", "root", "Perin@3016");
+                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/car_rental_system", "root", "");
                     Statement stmt = con.createStatement();
 
                     // Query to insert the details of Vehicle in the Database
@@ -311,7 +311,7 @@ public class Car_Rental_System {
 
                 try {
                     Class.forName("com.mysql.cj.jdbc.Driver");
-                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/car_rental_system", "root", "Perin@3016");
+                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/car_rental_system", "root", "");
 
                     Statement stmt = con.createStatement();
 
@@ -347,7 +347,7 @@ public class Car_Rental_System {
 
                 try {
                     Class.forName("com.mysql.cj.jdbc.Driver");
-                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/car_rental_system", "root", "Perin@3016");
+                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/car_rental_system", "root", "");
 
                     Statement stmt = con.createStatement();
 
@@ -385,7 +385,7 @@ public class Car_Rental_System {
 
                 try {
                     Class.forName("com.mysql.cj.jdbc.Driver");
-                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/car_rental_system", "root", "Perin@3016");
+                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/car_rental_system", "root", "");
 
                     Statement stmt = con.createStatement();
 
@@ -443,7 +443,7 @@ public class Car_Rental_System {
             {       
                 try {	                        
                     Class.forName("com.mysql.cj.jdbc.Driver");	                       
-                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/car_rental_system", "root", "Perin@3016");	                       
+                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/car_rental_system", "root", "");	                       
                     Statement stmt = con.createStatement();	    
                     
                     // NR - Not Reserved
@@ -506,7 +506,7 @@ public class Car_Rental_System {
                 
                 try {		                	
                     Class.forName("com.mysql.cj.jdbc.Driver");		               	 
-                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/car_rental_system", "root", "Perin@3016");		                	  
+                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/car_rental_system", "root", "");		                	  
                     Statement stmt = con.createStatement();	 
                     
                     // Inserting reservation details to reservation_details table
